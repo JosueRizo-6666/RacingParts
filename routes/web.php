@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::resource('proveedor', ProveedorController::class);
+Route::resource('/proveedor', ProveedorController::class);

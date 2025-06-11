@@ -20,7 +20,7 @@
                             <input type="text" class="form-control @error('nombre') is-invalid @enderror" 
                                    name="nombre" id="nombre" 
                                    value="{{ isset($datos) ? $datos->nombre : old('nombre') }}" 
-                                   placeholder="Nombre de la tarea" required>
+                                   placeholder="nombre" required>
                             <label for="nombre">Nombre de la empresa</label>
                         </div>
                    </div>
@@ -29,7 +29,7 @@
                             <input type="text" class="form-control @error('num_rtn') is-invalid @enderror" 
                                    name="num_rtn" id="num_rtn" 
                                    value="{{ isset($datos) ? $datos->num_rtn : old('num_rtn') }}" 
-                                   placeholder="Nombre de la tarea" required>
+                                   placeholder="num_rtn" required>
                             <label for="num_rtn">Numero de RTN</label>
                         </div>
                     </div>
@@ -49,9 +49,9 @@
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control @error('telefono') is-invalid @enderror" 
                                    name="telefono" id="telefono" 
-                                   value="{{ isset($datos) ? $datos->Nombre_de_la_empresa : old('Nombre_de_la_empresa') }}" 
-                                   placeholder="Nombre de la tarea" required>
-                            <label for="Nombre_de_la_empresa">Numero de telefono</label>
+                                   value="{{ isset($datos) ? $datos->telefono : old('telefono') }}" 
+                                   placeholder="telefono" required>
+                            <label for="telefono">Numero de telefono</label>
                         </div>
                     </div>
 
@@ -68,11 +68,11 @@
                     <!-- Descripción -->
                    <div class="col-md-6">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control @error('representante') is-invalid @enderror" 
-                                   name="representante" id="representante" 
-                                   value="{{ isset($datos) ? $datos->representante : old('representante') }}" 
-                                   placeholder="representante" required>
-                            <label for="representante">Representante de ventas</label>
+                            <input type="text" class="form-control @error('Representante') is-invalid @enderror" 
+                                   name="Representante" id="Representante" 
+                                   value="{{ isset($datos) ? $datos->Representante : old('Representante') }}" 
+                                   placeholder="Representante" required>
+                            <label for="Representante">Representante de ventas</label>
                         </div>
                     </div>
 
